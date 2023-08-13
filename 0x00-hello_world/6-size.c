@@ -1,5 +1,9 @@
 # include<stdio.h>
-/*Write a C program that prints the size of various types on the computer it is compiled and run on.*/
+/**
+ * main - prints the phrase with proper grammar,
+ * but the outcome is a piece of art,
+ * Return: 0 if exited properly, non-zero otherwise
+ */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));

@@ -1,5 +1,9 @@
 # include<stdio.h>
-/*Write a C program that prints exactly Programming is like building a multilingual puzzle, followed by a new line.*/
+/**
+ * main - prints the phrase with proper grammar,
+ * but the outcome is a piece of art,
+ * Return: 0 if exited properly, non-zero otherwise
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
