@@ -6,7 +6,7 @@
  * followed by a new line, except q and e
  * Return: Aways 0 (Sucess)
  */
-int main()
+int main(void)
 {
         int x;
         for (x = 0; x < 10; x++){
