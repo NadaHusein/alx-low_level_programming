@@ -1,19 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*Write a program that prints the alphabet in lowercase, followed by a new line. */
+/**
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
+ */
 int main()
 {
-int x;
+	int x;
 	for (x = 48; x <= 57; x++){
-		
 		putchar(a);
 		if(x !=57){
-		putchar(',');
-		putchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
-}
-putchar('\n');
-	return (0);
 	}
+	putchar('\n');
+	return (0);
+}
 
