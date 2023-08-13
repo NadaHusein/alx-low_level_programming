@@ -10,12 +10,11 @@ int main(void)
 {
 	char chLow;
 	char chHigh;
-	for (chLow = 'a'; chLow <= 'z'; chLow++){
+
+	for (chLow = 'a'; chLow <= 'z'; chLow++)
 		putchar(chLow);
-	}
-	for (chHigh = 'A'; chHigh <+ 'Z';chHigh++){
+	for (chHigh = 'A'; chHigh <= 'Z'; chHigh++)
 		putchar(chHigh);
-	}
 	putchar('\n');
 	return (0);
 }
