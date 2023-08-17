@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * add - adds two integers
  * @num1: int data tyoe
