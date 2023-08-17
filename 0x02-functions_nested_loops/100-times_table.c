@@ -44,7 +44,7 @@ void print_times_table(int n)
                                 	_putchar(ones + '0');
 				}
 			}
+			putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
