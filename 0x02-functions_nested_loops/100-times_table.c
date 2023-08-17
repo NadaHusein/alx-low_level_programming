@@ -25,14 +25,23 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
+				_putchar(' ');
+				_putchar(ones + '0');
+			}
+			else if (product < 100)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(tens + '0');
 				_putchar(ones + '0');
 			}
 			else
 			{
 				_putchar(',');
-				_putchar(' ');
-				_putchar(tens + '0');
-				_putchar(ones + '0');
+                                _putchar(' ');
+                                _putchar(tens + '0');
+                                _putchar(ones + '0');
 			}
 		}
 		_putchar('\n');
