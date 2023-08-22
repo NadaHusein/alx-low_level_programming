@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /*
  * Write a function that takes a pointer to an int
