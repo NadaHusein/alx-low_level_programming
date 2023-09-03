@@ -1,15 +1,18 @@
-// C++ program to implement
-// command-lien arguments
 #include <stdio.h>
- 
-// Command Line Arg
-void main(int argc, char *argv[])   
+
+/**
+ * main - prints all arguments it receives.
+ * @argc: argument count
+ * @argv: arguments
+ *
+ * Return: 0
+ */
+int main(int argc, char **argv)
 {
-    int i;
-    for (i = 0; i < argc; i++)
-    {
-        // Printing all the Arguments
-        printf("%s ", argv[i]);       
-    }
-    printf("\n");
+	int i;
+
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
+
+	return (0);
 }
