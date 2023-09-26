@@ -2,6 +2,25 @@
 #include "lists.h"
 
 /**
+ * _strlen - returns the length of string.
+ * @s: the string
+ *
+ * Return: ineger length of the string.
+ */
+
+int _strlen(char *s)
+{
+	int i = 0;
+	if (!s)
+		return (0);
+	while(*s++)
+	{
+		i++;
+	}
+	return (i);
+	
+}
+/**
  * print_list - prints all the elements of a linked list
  * @h: pointer to the list_t list to print
  *
